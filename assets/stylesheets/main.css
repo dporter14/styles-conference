@@ -1,5 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -47,10 +48,11 @@ table {
 }
 
 /*
-================================================
-Custom styles
-================================================
+  ========================================
+  Custom styles
+  ========================================
 */
+
 body {
   background: #293f50;
   color: #888;
@@ -58,17 +60,17 @@ body {
 }
 
 /*
-================================================
-GRID
-================================================
+  ========================================
+  Grid
+  ========================================
 */
 
 *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .container,
 .grid {
@@ -86,7 +88,7 @@ GRID
   padding-right: 15px;
 }
 .col-1-3,
-.col-2-3 {
+.col-2-3  {
   display: inline-block;
   vertical-align: top;
 }
@@ -97,12 +99,12 @@ GRID
   width: 66.66%;
 }
 
-
 /*
-================================================
-Clearfix
-================================================
+  ========================================
+  Clearfix
+  ========================================
 */
+
 .group:before,
 .group:after {
   content: "";
@@ -117,9 +119,9 @@ Clearfix
 }
 
 /*
-================================================
-Rows
-================================================
+  ========================================
+  Rows
+  ========================================
 */
 
 .row,
@@ -133,21 +135,21 @@ Rows
 .row-alt {
   background: #cbe2c1;
   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
   padding: 44px 0 22px 0;
 }
 
 /*
-================================================
-TYPOGRAPHY
-================================================
+  ========================================
+  Typography
+  ========================================
 */
 
 h1, h2, h3, h4 {
   color: #648880;
 }
-h1,h3,h4,h5,p {
+h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 h1 {
@@ -158,7 +160,7 @@ h2 {
   font-size: 24px;
   line-height: 44px;
 }
-h3{
+h3 {
   font-size: 21px;
 }
 h4 {
@@ -173,14 +175,15 @@ h5 {
 strong {
   font-weight: 400;
 }
-cite, em {
+cite,
+em {
   font-style: italic;
 }
 
 /*
-================================================
-Leads
-================================================
+  ========================================
+  Leads
+  ========================================
 */
 
 .lead {
@@ -192,10 +195,11 @@ Leads
 }
 
 /*
-================================================
-Links
-================================================
+  ========================================
+  Links
+  ========================================
 */
+
 a {
   color: #648880;
   text-decoration: none;
@@ -203,24 +207,22 @@ a {
 a:hover {
   color: #a9b2b9;
 }
-p a{
+p a {
   border-bottom: 1px solid #dfe2e5;
 }
-
 .primary-header a,
 .primary-footer a {
   color: #fff;
 }
-
 .primary-header a:hover,
 .primary-footer a:hover {
   color: #648880;
 }
 
 /*
-================================================
-Buttons
-================================================
+  ========================================
+  Buttons
+  ========================================
 */
 
 .btn {
@@ -233,48 +235,19 @@ Buttons
   margin: 0;
   text-transform: uppercase;
 }
-
 .btn-alt {
   border: 1px solid #fff;
   padding: 10px 30px;
 }
-
-<<<<<<< HEAD
-
-=======
 .btn-alt:hover {
   background: #fff;
   color: #648880;
 }
 
 /*
-================================================
-Home
-================================================
-*/
-
-.hero {
-  color: #fff;
-  line-height: 44px;
-  padding: 22px 80px 66px 80px;
-  text-align: center;
-}
-.hero h2 {
-  font-size: 36px;
-}
-.hero p {
-  font-size: 24px;
-  font-weight: 100;
-}
-.teaser a:hover h3 {
-  color: #a9b2b9;
-}
->>>>>>> b4fbadb43059e425d8981fb6ce2862c85cdacce6
-
-/*
-================================================
-Primary header
-================================================
+  ========================================
+  Primary header
+  ========================================
 */
 
 .logo {
@@ -299,9 +272,9 @@ Primary header
 }
 
 /*
-================================================
-Primary footer
-================================================
+  ========================================
+  Primary footer
+  ========================================
 */
 
 .primary-footer {
@@ -310,16 +283,15 @@ Primary footer
   padding-bottom: 44px;
   padding-top: 44px;
 }
-
 .primary-footer small {
   float: left;
   font-weight: 400;
 }
 
 /*
-================================================
-Navigation
-================================================
+  ========================================
+  Navigation
+  ========================================
 */
 
 .nav {
@@ -327,12 +299,13 @@ Navigation
 }
 
 /*
-================================================
-Home
-================================================
+  ========================================
+  Home
+  ========================================
 */
 
 .hero {
+  color: #fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
